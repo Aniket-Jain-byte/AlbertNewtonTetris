@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    margin-top: 30px;
+    height: 590px;
+    width: 295px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+
+.box{
+    background-color: black;
+    border: 1px black solid;
+    color: white;
+}
+
+#score{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#reset{
+    margin-top: 15px;
+    width: 50px;
+    height: 40px;
+}
